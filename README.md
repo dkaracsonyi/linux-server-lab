@@ -27,3 +27,6 @@ My first Linux server administration lab.
 ## Problems encountered
 - I'm still being asked to authenticate when SSHing to the VM
 
+## 10. oct - 1st update
+- I figured out what the issue was, the ownership of the authorized_keys has not been set up correctly, User had no access to the file. I can SSH without password now.
+
